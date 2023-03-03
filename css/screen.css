@@ -16,3 +16,9 @@ p{
 	color:white;
 }
 
+form {
+  background-color: #5C3A67;
+  padding: 20px;
+  border-radius: 10px;
+}
+
