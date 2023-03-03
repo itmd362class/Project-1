@@ -16,6 +16,10 @@ p{
 	color:white;
 }
 
+#list{
+    margin-top: 20px;
+}
+
 form {
   background-color: #5C3A67;
   padding: 20px;
@@ -49,13 +53,14 @@ label {
   width: 25%;
   padding: 10px;
   background-color: #C4BA6E;
-  color: #C4BA6E;
+  color: black;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
   border: none;
   border-radius: 5px;
   margin: 0 auto;
+  text
 }
 
 ol {
