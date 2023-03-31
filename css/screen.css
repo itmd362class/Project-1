@@ -26,14 +26,16 @@ form {
   border-radius: 10px;
   max-width: 400px;
   margin: 0 auto;
-  height: 600px;
+  height: 500px;
+  position: relative;
+  bottom: -30px;
+  
 }
 
 label {
   display: block;
   margin-bottom: 10px;
   font-size: 16px;
-  font-weight: bold;
   color: white;
 }
 
@@ -60,7 +62,6 @@ label {
   border: none;
   border-radius: 5px;
   margin: 0 auto;
-  text
 }
 
 ol {
@@ -68,10 +69,28 @@ ol {
 }
 
 @media screen and (max-width: 767px) {
-	body {
+	#lname,#fname,#email,#phone {
+		display: block;
+		width: 85%;
+		padding: 10px;
+		margin-bottom: 5px;
 		font-size: 14px;
+		border: none;
+		border-radius: 2px;
 	}
 	
+	form {
+		height: 400px;
+		max-width: 300px;
+	}
+	
+	#submit{
+		width: 30%;
+	}
+	
+	h1{
+		font-size: 24px;
+	}
 }
   
  @media screen and (min-width: 768px) {
