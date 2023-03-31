@@ -1,7 +1,7 @@
 body{
 	background-color:black;
 	background-image: url("../images/space.jpg");
-	font-family:'Tilt Warp', sans-serif;
+	font-family:'Tilt Warp', Arial;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
